@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Management System - Welcome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>🏋️ FitZone GYM</h1>
+            <div class="login-dropdown">
+                <button class="login-btn" id="header-login-btn">Login ▼</button>
+                <div class="dropdown-content" id="login-dropdown-menu">
+                    <a href="#" data-role="admin">👑 Login as Admin</a>
+                    <a href="#" data-role="member">🏃 Login as Member</a>
+                    <a href="#" data-role="user">📋 Login as User</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="home-page" class="module active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h2 class="hero-title">Transform Your Body, Transform Your Life</h2>
+                    <p class="hero-subtitle">Join FitZone Today and Achieve Your Fitness Goals</p>
+                    <button class="cta-button" id="explore-plans-btn">Explore Our Plans</button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=500&fit=crop" alt="Gym Workout" onerror="this.src='https://via.placeholder.com/800x500/3f51b5/ffffff?text=Gym+Workout'">
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h3>🎯 Why Choose FitZone?</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">💪</span>
+                        <h4>Expert Trainers</h4>
+                        <p>Certified professionals guide you through every step of your fitness journey.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🏆</span>
+                        <h4>Modern Equipment</h4>
+                        <p>State-of-the-art machines and facilities for optimal training experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🕐</span>
+                        <h4>Flexible Timings</h4>
+                        <p>Open 7 days a week with extended hours to fit your busy schedule.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-section">
+                <h3>🖼️ Our Facility</h3>
+                <div class="gallery-grid">
+                    <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&h=300&fit=crop" alt="Gym Equipment" onerror="this.src='https://via.placeholder.com/400x300/ff9800/ffffff?text=Equipment'">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&h=300&fit=crop" alt="Cardio Area" onerror="this.src='https://via.placeholder.com/400x300/ff9800/ffffff?text=Cardio+Zone'">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop" alt="Training Area" onerror="this.src='https://via.placeholder.com/400x300/ff9800/ffffff?text=Training+Area'">
+                    <img src="https://images.unsplash.com/photo-1623874514711-0f321325f318?w=400&h=300&fit=crop" alt="Group Classes" onerror="this.src='https://via.placeholder.com/400x300/ff9800/ffffff?text=Classes'">
+                </div>
+            </div>
+
+            <div class="plans-section" id="subscription-plans">
+                <h3>💳 Membership Plans</h3>
+                <p class="plans-subtitle">Choose the perfect plan for your fitness journey</p>
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <div class="plan-badge">Starter</div>
+                        <h4>3 Months</h4>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">2,999</span>
+                            <span class="period">/quarter</span>
+                        </div>
+                        <ul class="plan-features">
+                            <li>✓ Full Gym Access</li>
+                            <li>✓ Basic Equipment Usage</li>
+                            <li>✓ Locker Facility</li>
+                            <li>✓ 3 Personal Training Sessions</li>
+                            <li>✓ Nutrition Guide (PDF)</li>
+                        </ul>
+                        <button class="plan-button">Get Started</button>
+                    </div>
+
+                    <div class="plan-card featured">
+                        <div class="plan-badge popular">Most Popular</div>
+                        <h4>6 Months</h4>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">5,499</span>
+                            <span class="period">/6 months</span>
+                        </div>
+                        <ul class="plan-features">
+                            <li>✓ Full Gym Access</li>
+                            <li>✓ All Equipment Usage</li>
+                            <li>✓ Locker Facility</li>
+                            <li>✓ 8 Personal Training Sessions</li>
+                            <li>✓ Diet Plan by Nutritionist</li>
+                            <li>✓ Group Classes Access</li>
+                            <li>✓ Progress Tracking</li>
+                        </ul>
+                        <button class="plan-button">Get Started</button>
+                    </div>
+
+                    <div class="plan-card">
+                        <div class="plan-badge premium">Best Value</div>
+                        <h4>12 Months</h4>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">9,999</span>
+                            <span class="period">/year</span>
+                        </div>
+                        <ul class="plan-features">
+                            <li>✓ Full Gym Access</li>
+                            <li>✓ All Equipment + Sauna</li>
+                            <li>✓ Premium Locker</li>
+                            <li>✓ 20 Personal Training Sessions</li>
+                            <li>✓ Customized Diet Plan</li>
+                            <li>✓ All Group Classes</li>
+                            <li>✓ Body Composition Analysis</li>
+                            <li>✓ 2 Guest Passes/Month</li>
+                            <li>✓ Supplement Discount</li>
+                        </ul>
+                        <button class="plan-button">Get Started</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>📍 Visit Us Today</h3>
+                <p>Experience world-class fitness facilities and expert guidance. Our dedicated team is here to help you achieve your fitness goals.</p>
+                <div class="contact-info">
+                    <p>📞 <strong>Phone:</strong> +91 98765 43210</p>
+                    <p>📧 <strong>Email:</strong> info@fitzonegym.com</p>
+                    <p>🕐 <strong>Hours:</strong> Mon-Sun: 5:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="admin-login-module" class="d-flex align-items-center hidden">
+            <div class="card shadow-lg mx-auto p-4 p-md-5 login-card">
+                <h2 class="card-title text-center mb-4">👑 Admin Login</h2>
+                <form id="admin-login-form">
+                    <div class="mb-3">
+                        <label for="login-email" class="form-label visually-hidden">Email address</label>
+                        <input type="email" class="form-control form-control-lg" id="login-email" placeholder="Admin Email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="login-password" class="form-label visually-hidden">Password</label>
+                        <input type="password" class="form-control form-control-lg" id="login-password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100 mb-3 login-submit-btn">Log In</button>
+                    <p id="login-error" class="error-msg text-center"></p>
+                    <button type="button" class="btn btn-secondary w-100 back-btn" id="back-to-home-admin">← Back to Home</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="member-login-module" class="d-flex align-items-center hidden">
+            <div class="card shadow-lg mx-auto p-4 p-md-5 login-card">
+                <h2 class="card-title text-center mb-4">🏃 Member Login</h2>
+                <form id="member-login-form">
+                    <div class="mb-3">
+                        <label for="member-login-email" class="form-label visually-hidden">Email address</label>
+                        <input type="email" class="form-control form-control-lg" id="member-login-email" placeholder="Your Registered Email" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="member-login-password" class="form-label visually-hidden">Password</label>
+                        <input type="password" class="form-control form-control-lg" id="member-login-password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100 mb-3 login-submit-btn">Member Log In</button>
+                    <p id="member-login-error" class="error-msg text-center"></p>
+                    <button type="button" class="btn btn-secondary w-100 back-btn" id="back-to-home-member">← Back to Home</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id="user-login-module" class="module hidden">
+            <h2>Simple User/Guest Login</h2>
+            <p>This section is a placeholder for public-facing features like viewing schedules or a basic catalog.</p>
+            <button type="button" class="back-btn" id="back-to-home-user">← Back to Home</button>
+        </section>
+        
+        <section id="admin-dashboard" class="module hidden">
+            <h2>Admin Panel</h2>
+            <p>Welcome, Admin! <button id="logout-btn">Log Out</button></p>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="add-member">Add Member</button>
+                <button class="tab-btn" data-tab="view-members">View Members</button>
+                <button class="tab-btn" data-tab="create-bills">Create Bills</button>
+                <button class="tab-btn" data-tab="assign-notification">Notifications</button>
+            </div>
+
+            <div id="tab-content">
+                <div id="add-member" class="tab-pane active">
+                    <h3>➕ Add New Member</h3>
+                    <form id="add-member-form">
+                        <input type="text" id="member-name" placeholder="Full Name" required>
+                        <input type="email" id="member-email" placeholder="Email (for login)" required>
+                        <input type="password" id="member-password" placeholder="Temporary Password (min 6 chars)" value="123456" required minlength="6">
+                        <input type="tel" id="member-phone" placeholder="Phone Number" required>
+                        <select id="member-package" required>
+                            <option value="">Select Fee Package</option>
+                            <option value="Basic">Basic (₹1000/mo)</option>
+                            <option value="Premium">Premium (₹2500/mo)</option>
+                        </select>
+                        <input type="number" id="member-fee" placeholder="Monthly Fee Amount" required>
+                        <button type="submit">Add Member</button>
+                        <p id="member-status" class="status-msg"></p>
+                    </form>
+                </div>
+                
+                <div id="view-members" class="tab-pane hidden">
+                    <h3>📋 Member List</h3>
+                    <button id="export-members-btn" class="export-btn">Export Members List (CSV)</button>
+                    <table id="members-data-table" class="hidden">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Package</th>
+                                <th>Fee</th>
+                                <th>Joined</th>
+                                <th>UID</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <ul id="member-list"></ul>
+                </div>
+                
+                <div id="create-bills" class="tab-pane hidden">
+                    <h3>🧾 Generate Monthly Bills</h3>
+                    <p>Select a member and package to generate or update their bill.</p>
+                    <form id="create-bill-form">
+                        <select id="bill-member-select" required>
+                            <option value="">Select Member</option>
+                        </select>
+                        <input type="date" id="bill-issue-date" required>
+                        <input type="number" id="bill-amount" placeholder="Bill Amount (auto-filled)" required readonly>
+                        <button type="submit" id="generate-bill-btn">Generate Bill / Update Due Date</button>
+                        <p id="bill-status" class="status-msg"></p>
+                    </form>
+                </div>
+
+                <div id="assign-notification" class="tab-pane hidden">
+                    <h3>📢 Assign Notifications</h3>
+                    <form id="assign-notification-form">
+                        <input type="text" id="notification-title" placeholder="Notification Title (e.g., Fee Reminder)" required>
+                        <textarea id="notification-message" placeholder="Message details (e.g., Please pay your monthly fee by the 5th.)" rows="3" required></textarea>
+                        <label for="notification-expiry">Expiration Date (Optional - Will disappear after this date):</label>
+                        <input type="date" id="notification-expiry">
+                        <button type="submit">Publish Notification</button>
+                        <p id="notification-status" class="status-msg"></p>
+                    </form>
+                    <h4>Active Announcements</h4>
+                    <ul id="active-announcements-list"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="member-dashboard" class="module hidden">
+            <h2>👋 Welcome, <span id="member-name-display">Member!</span></h2>
+            <p>Your Membership Package: <strong id="member-package-display"></strong></p>
+            <button id="member-logout-btn" style="float: right;">Log Out</button>
+            
+            <div class="tabs">
+                <button class="tab-btn member-tab active" data-tab="view-receipts">View Bill Receipts</button>
+                <button class="tab-btn member-tab" data-tab="view-notifications">View Notifications</button>
+            </div>
+
+            <div id="member-tab-content">
+                <div id="view-receipts" class="member-tab-pane active">
+                    <h3>📄 Your Past Receipts</h3>
+                    <ul id="receipt-list">
+                        <li>No receipts found.</li>
+                    </ul>
+                </div>
+                
+                <div id="view-notifications" class="member-tab-pane hidden">
+                    <h3>🔔 Notifications</h3>
+                    <ul id="member-notification-list"></ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FitZone GYM Management System | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    
+    <script src="firebase-init.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
