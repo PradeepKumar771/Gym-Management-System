@@ -2,7 +2,7 @@
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDgzf434g30N1GoMAes3Cy-u1BoD4OUVS0",
+    apiKey: "your api key ",
     authDomain: "gym-management-system-53340.firebaseapp.com",
     projectId: "gym-management-system-53340",
     storageBucket: "gym-management-system-53340.firebasestorage.app",
@@ -18,5 +18,6 @@ const app = firebase.initializeApp(firebaseConfig);
 // script.js expects these variables to be defined globally.
 const auth = app.auth();
 const db = app.firestore();
+
 
 console.log("Firebase App Initialized and Auth/DB globals defined!");
